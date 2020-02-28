@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="My and Union">
+  <meta name="author" content="">
+
+  <title>My and Union</title>
+
+  <!-- Bootstrap core CSS 
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+-->
+
+  <!-- Custom fonts for this template -->
+  <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+
+  <!-- Custom styles for this template -->
+  <link href="css/styles.css" rel="stylesheet">
+
+   <!-- Import the component -->
+ <script type="module" src="./vendor/model-viewer/model-viewer.js"></script>
+ <script type="module" src="./vendor/model-viewer/model-viewer-legacy.js"></script>
+
+</head>
+
+<body>
+
+  <!-- Header -->
+  <header class="masthead">
+    <div class="container">
+      
+    </div>
+  </header>
+
+  <!-- Services -->
+  <section class="page-section clear-a">
+    <div class="left-panel">
+      <img src="img/logo.png" alt="" class="logo" />
+      <h2>Product categories</h2>
+      <div class="accor-area">
+        <h3 class="active clear-a">
+          <span>Jean Buttons</span>
+          <i class="fas fa-angle-down"></i>
+          <i class="fas fa-angle-up"></i>
+        </h3>
+        <div class="btn-set active">
+          <img src="img/close-top-button/close-top-button-small-steel-01-01.png" alt="" />
+          <img src="img/alloy-wheel/alloy-wheel-small-steel-01-01.jpg" alt="" />
+        </div>
+
+        <h3 class="clear-a">
+          <span>Metal Buttons</span>
+          <i class="fas fa-angle-down"></i>
+          <i class="fas fa-angle-up"></i>
+        </h3>
+        <div class="btn-set">
+          <img src="img/close-top-button/close-top-button-small-steel-01-01.png" alt="" />
+          <img src="img/alloy-wheel/alloy-wheel-small-steel-01-01.jpg" alt="" />
+        </div>
+      </div>
+    </div>
+    <div class="content-section float-l">
+      <div class="top-image-rotate">
+        <img src="img/close-top-button/close-top-button-small-steel-01-01.png" alt="" />
+
+        <!-- Use it like any other HTML element -->
+<model-viewer src="obj/btn.obj" alt="A 3D model of an astronaut" auto-rotate camera-controls></model-viewer>
+
+      </div>
+      <div class="match-with-apparal-wrapper">
+        <img src="img/apparal/shirt.png" alt="" />
+      </div>
+    </div>
+    <div class="right-functionality-panel float-l">
+      <div class="color-change-wrapper">
+        <h3>Change the color</h3>
+      </div>
+      <div class="size-change-wrapper">
+        <h3>Change the size</h3>
+        <select name="changeSize" class="change-size">
+          <option value="large">Large</option>
+          <option value="medium">Medium</option>
+          <option value="small">Small</option>
+        </select>
+      </div>
+      <div class="logo-upload-wrapper">        
+        <div class="draggable-logo-upload">
+          <i class="fas fa-cloud-upload-alt"></i>
+          <span>Upload a logo</span>
+        </div>
+      </div>
+      <div class="apparal-select-wrapper">
+        <h3>Change the apparal</h3>
+        <select name="changeSize" class="change-size">
+          <option value="large">Large</option>
+          <option value="medium">Medium</option>
+          <option value="small">Small</option>
+        </select>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+
+  </footer>
+
+  <!-- Plugin JavaScript -->
+  <script src="vendor/jquery/jquery-3.4.1.min.js"></script>
+
+
+  <!-- Custom scripts for this template -->
+  <script src="js/scripts.js"></script>
+
+</body>
+
+</html>

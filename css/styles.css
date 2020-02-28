@@ -1,0 +1,197 @@
+@font-face {
+  font-family: "open_sansregular";
+  src: url("../vendor/fonts/opensans/opensans-regular-webfont.eot");
+  src: url("../vendor/fonts/opensans/opensans-regular-webfont.eot?#iefix") format("embedded-opentype"), url("../vendor/fonts/opensans/opensans-regular-webfont.woff") format("woff"), url("../vendor/fonts/opensans/opensans-regular-webfont.ttf") format("truetype"), url("../vendor/fonts/opensans/opensans-regular-webfont.svg#open_sansregular") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "catamaransemibold";
+  src: url("../vendor/fonts/catamaran/catamaran-semibold-webfont.woff2") format("woff2"), url("../vendor/fonts/catamaran/catamaran-semibold-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "open_sansregular", sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "catamaransemibold", sans-serif;
+}
+
+.clear-a::after {
+  clear: both;
+  content: ".";
+  display: block;
+  height: 0;
+  visibility: hidden;
+}
+
+.float-l, .float-r {
+  float: left;
+  position: relative;
+}
+
+.float-r {
+  float: right;
+}
+
+.masthead {
+  height: 10vh;
+  background: #222;
+  width: 100%;
+  display: block;
+  z-index: 1;
+  position: relative;
+  display: none;
+}
+
+.left-panel {
+  width: 25%;
+  padding: 0 10px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100vh;
+  display: block;
+  background-image: linear-gradient(to bottom left, #081425, #2262bc);
+  z-index: 0;
+  box-sizing: border-box;
+}
+.left-panel img.logo {
+  margin: 20px 0 20px;
+}
+.left-panel h2 {
+  color: #fff;
+  font-size: 20px;
+  margin: 10px 0;
+}
+.left-panel h3 {
+  display: block;
+  font-size: 18px;
+  height: 40px;
+  line-height: 36px;
+  padding: 0 0 0 10px;
+  color: #fff;
+  border-bottom: 1px solid #fff;
+  margin: 0;
+  cursor: pointer;
+}
+.left-panel h3 i {
+  float: right;
+  margin: 10px 10px 0 0;
+  font-size: 18px;
+  display: none;
+}
+.left-panel h3 i.fa-angle-down {
+  display: inline;
+}
+.left-panel h3.active i {
+  display: inline;
+}
+.left-panel h3.active i.fa-angle-down {
+  display: none;
+}
+.left-panel .btn-set {
+  display: none;
+  transition: display 1s;
+  background: #fff;
+  padding: 10px;
+}
+.left-panel .btn-set.active {
+  display: block;
+}
+.left-panel .btn-set img {
+  width: 70px;
+  border: 0;
+  margin: 0 10px 0 0;
+  cursor: pointer;
+}
+
+.content-section {
+  width: 50%;
+  margin: 0 0 0 25%;
+  padding: 10px;
+  box-sizing: border-box;
+}
+.content-section .top-image-rotate {
+  border: 1px solid #ccc;
+  padding: 15px;
+  text-align: center;
+}
+.content-section .top-image-rotate img {
+  width: 320px;
+}
+.content-section .match-with-apparal-wrapper {
+  position: relative;
+  padding: 15px;
+  display: block;
+  text-align: center;
+}
+.content-section .match-with-apparal-wrapper img {
+  width: 180px;
+}
+
+.right-functionality-panel {
+  padding: 0 10px 0 30px;
+  width: 25%;
+  box-sizing: border-box;
+}
+.right-functionality-panel .color-change-wrapper,
+.right-functionality-panel .size-change-wrapper,
+.right-functionality-panel .logo-upload-wrapper,
+.right-functionality-panel .apparal-select-wrapper {
+  margin: 0 0 15px;
+  display: block;
+}
+.right-functionality-panel .color-change-wrapper h3,
+.right-functionality-panel .size-change-wrapper h3,
+.right-functionality-panel .logo-upload-wrapper h3,
+.right-functionality-panel .apparal-select-wrapper h3 {
+  font-size: 15px;
+  margin: 0;
+}
+.right-functionality-panel .color-change-wrapper select,
+.right-functionality-panel .size-change-wrapper select,
+.right-functionality-panel .logo-upload-wrapper select,
+.right-functionality-panel .apparal-select-wrapper select {
+  display: block;
+  width: 100%;
+  height: 40px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 0 0 0 10px;
+  box-sizing: border-box;
+}
+.right-functionality-panel .color-change-wrapper .draggable-logo-upload,
+.right-functionality-panel .size-change-wrapper .draggable-logo-upload,
+.right-functionality-panel .logo-upload-wrapper .draggable-logo-upload,
+.right-functionality-panel .apparal-select-wrapper .draggable-logo-upload {
+  width: 100%;
+  height: 95px;
+  border: 2px dashed #ccc;
+  text-align: center;
+  background: #eee;
+  border-radius: 8px;
+}
+.right-functionality-panel .color-change-wrapper .draggable-logo-upload i,
+.right-functionality-panel .size-change-wrapper .draggable-logo-upload i,
+.right-functionality-panel .logo-upload-wrapper .draggable-logo-upload i,
+.right-functionality-panel .apparal-select-wrapper .draggable-logo-upload i {
+  display: block;
+  margin: 20px 0 0;
+  font-size: 25px;
+  color: #1e4c8c;
+}
+.right-functionality-panel .color-change-wrapper .draggable-logo-upload span,
+.right-functionality-panel .size-change-wrapper .draggable-logo-upload span,
+.right-functionality-panel .logo-upload-wrapper .draggable-logo-upload span,
+.right-functionality-panel .apparal-select-wrapper .draggable-logo-upload span {
+  color: #434343;
+  font-size: 15px;
+  font-family: "catamaransemibold", sans-serif;
+}
+
+/*# sourceMappingURL=styles.css.map */

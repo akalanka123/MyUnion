@@ -1,0 +1,26 @@
+.content-section{
+    width: 50%;
+    margin: 0 0 0 25%;
+    padding: 10px;
+    box-sizing: border-box;
+    .top-image-rotate{
+        border: 1px solid #ccc;
+        padding: 15px;
+        text-align: center;
+        img{
+            width: 320px;
+        }
+    }
+
+    //apparal
+    .match-with-apparal-wrapper{
+        position: relative;
+        padding: 15px;
+        
+        display: block;
+        text-align: center;
+        img{
+            width:180px;
+        }
+    }
+}

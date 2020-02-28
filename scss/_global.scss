@@ -1,0 +1,22 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: $bodyFont;
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: $titleFont;
+}
+.clear-a::after{
+    clear: both;
+    content: ".";
+    display: block;
+    height: 0;
+    visibility: hidden;
+}
+.float-l, .float-r{
+    float: left;
+    position: relative;
+}
+.float-r{
+    float: right;
+}

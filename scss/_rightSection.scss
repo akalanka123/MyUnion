@@ -1,0 +1,44 @@
+.right-functionality-panel{
+    padding: 0 10px 0 30px;
+    width: 25%;
+    box-sizing: border-box;
+    .color-change-wrapper,
+    .size-change-wrapper,
+    .logo-upload-wrapper,
+    .apparal-select-wrapper{
+        margin: 0 0 15px;
+        display: block;
+        h3{
+            font-size: 15px;
+            margin: 0;
+        }
+        select{
+            display: block;
+            width: 100%;
+            height: 40px;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            padding: 0 0 0 10px;
+            box-sizing: border-box;
+        }
+        .draggable-logo-upload{
+            width: 100%;
+            height: 95px;
+            border:2px dashed #ccc;
+            text-align: center;
+            background: #eee;
+            border-radius: 8px;
+            i{
+                display: block;
+                margin: 20px 0 0;
+                font-size: 25px;
+                color: #1e4c8c;
+            }
+            span{
+                color: #434343;
+                font-size: 15px;
+                font-family: $titleFont;
+            }
+        }
+    }
+}
