@@ -117,8 +117,8 @@ h1, h2, h3, h4, h5, h6 {
   box-sizing: border-box;
 }
 .content-section .top-image-rotate {
-  border: 1px solid #ccc;
-  padding: 15px;
+  border-bottom: 1px solid #ccc;
+  padding: 15px 15px 25px;
   text-align: center;
 }
 .content-section .top-image-rotate img {
@@ -126,7 +126,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 .content-section .match-with-apparal-wrapper {
   position: relative;
-  padding: 15px;
+  padding: 25px 15px 15px;
   display: block;
   text-align: center;
 }
@@ -135,9 +135,13 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .right-functionality-panel {
-  padding: 0 10px 0 30px;
+  padding: 0 15px;
   width: 25%;
   box-sizing: border-box;
+  position: absolute;
+  right: 0;
+  height: 100vh;
+  background: #ddd;
 }
 .right-functionality-panel .color-change-wrapper,
 .right-functionality-panel .size-change-wrapper,

@@ -1,7 +1,11 @@
 .right-functionality-panel{
-    padding: 0 10px 0 30px;
+    padding: 0 15px;
     width: 25%;
     box-sizing: border-box;
+    position: absolute;
+    right: 0;
+    height: 100vh;
+    background: #ddd;
     .color-change-wrapper,
     .size-change-wrapper,
     .logo-upload-wrapper,

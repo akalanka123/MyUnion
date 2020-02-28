@@ -4,8 +4,8 @@
     padding: 10px;
     box-sizing: border-box;
     .top-image-rotate{
-        border: 1px solid #ccc;
-        padding: 15px;
+        border-bottom: 1px solid #ccc;
+        padding: 15px 15px 25px;
         text-align: center;
         img{
             width: 320px;
@@ -15,7 +15,7 @@
     //apparal
     .match-with-apparal-wrapper{
         position: relative;
-        padding: 15px;
+        padding: 25px 15px 15px;
         
         display: block;
         text-align: center;
