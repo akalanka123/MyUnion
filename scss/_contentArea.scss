@@ -3,24 +3,26 @@
     margin: 0 0 0 25%;
     padding: 10px;
     box-sizing: border-box;
-    .top-image-rotate{
-        border-bottom: 1px solid #ccc;
-        padding: 15px 15px 25px;
+    .top-image-rotate,
+    .match-with-apparal-wrapper{
+        position: relative;
+        display: flex;
         text-align: center;
+        justify-content: center;
+        flex: 1;
+        height: 45vh;
+        box-sizing: border-box;
         img{
             width: 320px;
+            margin: auto;
         }
     }
 
     //apparal
     .match-with-apparal-wrapper{
-        position: relative;
-        padding: 25px 15px 15px;
-        
-        display: block;
-        text-align: center;
+        height: 49vh;
         img{
-            width:180px;
+            width:270px;
         }
     }
 }
