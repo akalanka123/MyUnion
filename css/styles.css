@@ -197,5 +197,32 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 15px;
   font-family: "catamaransemibold", sans-serif;
 }
+.right-functionality-panel .color-change-wrapper .radio-wrapper,
+.right-functionality-panel .size-change-wrapper .radio-wrapper,
+.right-functionality-panel .logo-upload-wrapper .radio-wrapper,
+.right-functionality-panel .apparal-select-wrapper .radio-wrapper {
+  margin: 10px 0 20px;
+}
+.right-functionality-panel .color-change-wrapper .radio-wrapper .sizes,
+.right-functionality-panel .size-change-wrapper .radio-wrapper .sizes,
+.right-functionality-panel .logo-upload-wrapper .radio-wrapper .sizes,
+.right-functionality-panel .apparal-select-wrapper .radio-wrapper .sizes {
+  margin: 0 15px 0 0;
+}
+.right-functionality-panel .color-change-wrapper .radio-wrapper .sizes input,
+.right-functionality-panel .size-change-wrapper .radio-wrapper .sizes input,
+.right-functionality-panel .logo-upload-wrapper .radio-wrapper .sizes input,
+.right-functionality-panel .apparal-select-wrapper .radio-wrapper .sizes input {
+  width: 16px;
+  height: 16px;
+  margin: 3px 5px 0 0;
+}
+.right-functionality-panel .color-change-wrapper .radio-wrapper .sizes span,
+.right-functionality-panel .size-change-wrapper .radio-wrapper .sizes span,
+.right-functionality-panel .logo-upload-wrapper .radio-wrapper .sizes span,
+.right-functionality-panel .apparal-select-wrapper .radio-wrapper .sizes span {
+  font-size: 15px;
+  color: #434343;
+}
 
 /*# sourceMappingURL=styles.css.map */
