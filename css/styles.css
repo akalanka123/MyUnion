@@ -131,6 +131,18 @@ h1, h2, h3, h4, h5, h6 {
   width: 320px;
   margin: auto;
 }
+.content-section .top-image-rotate img.small,
+.content-section .match-with-apparal-wrapper img.small {
+  width: 160px;
+}
+.content-section .top-image-rotate img.medium,
+.content-section .match-with-apparal-wrapper img.medium {
+  width: 240px;
+}
+.content-section .top-image-rotate img.large,
+.content-section .match-with-apparal-wrapper img.large {
+  width: 320px;
+}
 .content-section .match-with-apparal-wrapper {
   height: 49vh;
 }

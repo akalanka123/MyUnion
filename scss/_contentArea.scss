@@ -15,6 +15,15 @@
         img{
             width: 320px;
             margin: auto;
+            &.small{
+                width: 160px;
+            }
+            &.medium{
+                width: 240px;
+            }
+            &.large{
+                width: 320px;
+            }
         }
     }
 
