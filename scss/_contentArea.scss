@@ -3,24 +3,34 @@
     margin: 0 0 0 25%;
     padding: 10px;
     box-sizing: border-box;
-    .top-image-rotate{
-        border-bottom: 1px solid #ccc;
-        padding: 15px 15px 25px;
-        text-align: center;
-        img{
-            width: 320px;
-        }
-    }
-
-    //apparal
+    .top-image-rotate,
     .match-with-apparal-wrapper{
         position: relative;
-        padding: 25px 15px 15px;
-        
-        display: block;
+        display: flex;
         text-align: center;
+        justify-content: center;
+        flex: 1;
+        height: 45vh;
+        box-sizing: border-box;
         img{
-            width:180px;
+            width: 320px;
+            margin: auto;
+            &.small{
+                width: 160px;
+            }
+            &.medium{
+                width: 240px;
+            }
+            &.large{
+                width: 320px;
+            }
+        }
+    }
+    //apparal
+    .match-with-apparal-wrapper{
+        height: 49vh;
+        img{
+            width:270px;
         }
     }
 }

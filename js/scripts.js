@@ -14,3 +14,16 @@ $(".left-panel .btn-set img").click(function(){
 	var imgSrc = $(this).attr("src");
 	$(".top-image-rotate img").attr("src" , imgSrc);
 });
+
+$(".apparal-select-wrapper .img-wrapper img").click(function(){
+	var imgSrc = $(this).attr("src");	
+	$(".match-with-apparal-wrapper img").attr("src" , imgSrc);
+	$(".apparal-select-wrapper .img-wrapper").removeClass("active");
+	$(this).parent().addClass("active");
+});
+
+$(".size-change-wrapper input[name='sizes']").change(function(){
+	var changedSize = $(this).val();
+	$(".top-image-rotate img").removeClass("small medium large");
+	$(".top-image-rotate img").addClass(changedSize);
+});

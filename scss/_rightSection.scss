@@ -25,6 +25,7 @@
             padding: 0 0 0 10px;
             box-sizing: border-box;
         }
+        
         .draggable-logo-upload{
             width: 100%;
             height: 95px;
@@ -42,6 +43,49 @@
                 color: #434343;
                 font-size: 15px;
                 font-family: $titleFont;
+            }
+        }
+        .radio-wrapper{
+            margin: 10px 0 20px;
+            .sizes{
+                margin: 0 15px 0 0;
+                input{
+                    width: 16px;
+                    height: 16px;
+                    margin: 3px 5px 0 0;
+                }
+                span{
+                    font-size: 15px;
+                    color: #434343;
+                }
+            }
+        }
+        .img-set-wrapper{
+            margin: 10px 0 0;
+            .img-wrapper{
+                width: 150px;
+                background: #fff;
+                display: flex;
+                height: 150px;
+                margin: 0 8px 8px 0;
+                box-shadow: 0 0 5px #000;
+                img{
+                    margin: auto;
+                    max-width: 38%;
+                    align-self: center;
+                    cursor: pointer;
+                    &:hover{
+                        opacity: 0.8;
+                    }
+                }
+                &.active{
+                    background: #eee;
+                    box-shadow: 0 0 5px #444;
+                    img{
+                        opacity: 0.8;
+                        cursor: default;
+                    }
+                }
             }
         }
     }
